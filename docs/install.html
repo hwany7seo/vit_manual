@@ -129,7 +129,7 @@
 <li class="toctree-l2"><a class="reference internal" href="intro.html#id1">관련 내용</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="intro.html#dbeaver-dbeaver-io">DBeaver (dbeaver.io)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="intro.html#gql-graph-query-language">GQL (Graph Query Language)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="intro.html#gephi-gephi-org">Gephi (gephi.org)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="intro.html#javafx-openjfx-io">JavaFX (openjfx.io)</a></li>
 </ul>
 </li>
 </ul>
@@ -140,20 +140,33 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="start.html">ViT 시작하기</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="start.html#vit-northwind-db-neo4j">ViT로 Northwind DB(Neo4j) 연결/시작</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="start.html#database">Database 추가</a></li>
-<li class="toctree-l3"><a class="reference internal" href="start.html#id1">연결 테스트</a></li>
-<li class="toctree-l3"><a class="reference internal" href="start.html#id2">DataBase 추가</a></li>
+<li class="toctree-l2"><a class="reference internal" href="start.html#vit-db-neo4j">ViT로 DB(Neo4j) 연결/시작</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="start.html#database">Database 연결</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="start.html#id1">연결 테스트</a></li>
+<li class="toctree-l4"><a class="reference internal" href="start.html#id2">DataBase 추가</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="start.html#sql-gql">SQL(GQL) 편집기</a></li>
-<li class="toctree-l3"><a class="reference internal" href="start.html#id3">데이터 결과창</a></li>
+<li class="toctree-l3"><a class="reference internal" href="start.html#id3">데이터 결과창</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="start.html#mini-map">Mini Map</a></li>
+<li class="toctree-l4"><a class="reference internal" href="start.html#id4">확대 축소 하기</a></li>
+<li class="toctree-l4"><a class="reference internal" href="start.html#highlight">HighLight 설정</a></li>
+<li class="toctree-l4"><a class="reference internal" href="start.html#id5">HighLight 해제</a></li>
+<li class="toctree-l4"><a class="reference internal" href="start.html#id6">시각화 편집 기능</a></li>
+<li class="toctree-l4"><a class="reference internal" href="start.html#id7">표시 데이터 개수 설정</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="start.html#id8">기타 기능</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="start.html#layout">Layout 정렬 기능</a></li>
+<li class="toctree-l3"><a class="reference internal" href="start.html#id9">최단 경로 구하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="start.html#chart">Chart 기능</a></li>
 <li class="toctree-l3"><a class="reference internal" href="start.html#value">Value 창으로 세부 정보 확인</a></li>
-<li class="toctree-l3"><a class="reference internal" href="start.html#highlight">HighLight 설정</a></li>
-<li class="toctree-l3"><a class="reference internal" href="start.html#id4">HighLight 해제</a></li>
-<li class="toctree-l3"><a class="reference internal" href="start.html#id5">시각화 편집 기능</a></li>
-<li class="toctree-l3"><a class="reference internal" href="start.html#mini-map">Mini Map</a></li>
-<li class="toctree-l3"><a class="reference internal" href="start.html#id6">확대 축소 하기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="start.html#id10">디자인 편집 기능</a></li>
 <li class="toctree-l3"><a class="reference internal" href="start.html#capture">Capture 하기</a></li>
-<li class="toctree-l3"><a class="reference internal" href="start.html#id7">표시 데이터 개수 설정</a></li>
+<li class="toctree-l3"><a class="reference internal" href="start.html#csv">결과 데이터 CSV 파일로 내보내기</a></li>
+<li class="toctree-l3"><a class="reference internal" href="start.html#id11">질의 변환기</a></li>
 </ul>
 </li>
 </ul>
@@ -239,7 +252,7 @@
 <span id="id1"></span><h1>설치와 실행<a class="headerlink" href="#install-execute" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="supported">
 <span id="id2"></span><h2>지원 플랫폼 및 설치 권장 사양<a class="headerlink" href="#supported" title="Permalink to this headline">¶</a></h2>
-<p>본프로그램이 지원하는 플랫폼과 설치를 위한 하드웨어/소프트웨어 요구 사항은 아래 표와 같다.</p>
+<p>본 프로그램이 지원하는 플랫폼과 설치를 위한 하드웨어/소프트웨어 요구 사항은 아래 표와 같다.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="48%" />
@@ -270,6 +283,32 @@
 </div>
 <div class="section" id="id3">
 <h2>설치와 실행<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>본 프로그램은 Zip(Windows), Tar(Linux,Mac) 로 압축되어 배포 된다.
+플랫폼 별 배포 파일은 아래와 같다.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">플랫폼</th>
+<th class="head">파일명</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Windows</td>
+<td>ViT-Version-win32.win32.x86_64.zip</td>
+</tr>
+<tr class="row-odd"><td>Linux</td>
+<td>ViT-Version-linux.gtk.x86_64.tar.gz</td>
+</tr>
+<tr class="row-even"><td>Mac</td>
+<td>ViT-Version-macosx.cocoa.x86_64.tar.gz</td>
+</tr>
+</tbody>
+</table>
+<p>Windows, Linux 에 경우 원하는 폴더에 압축을 해제 한후 dbeaver.exe 또는 dbeaver 를 실행한다.
+Mac에 경우 압축해제 후 DBeaver.app을 설치 후에 dbeaver를 실행 한다.</p>
 </div>
 </div>
 
@@ -289,7 +328,7 @@
     <p>
         &#169; Copyright 2022, CUBRID Corporation.
       <span class="lastupdated">
-        Last updated on Dec 13, 2023.
+        Last updated on Dec 14, 2023.
       </span>
 
     </p>
